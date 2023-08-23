@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100vw;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.5);
+    gap: 15px;
+}
+
+img {
+    width: 25px;
+}
+
+.personal-pic {
+    width: 82px;
+    border-radius: 50%;
+}
+
+main {
+    width: 900px;
+    margin: 50px auto;
+    border: 1px rgba(128, 128, 128, 0.5) solid;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+section {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.contenar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+#contact-me .contenar {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#contact-me .follow-me a img {
+    width: 40px;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.card {
+    width: 140px;
+    height: 80px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(86, 168, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon {
+    width: 20px;
+}
+
+#experince .contenar .card {
+    font-size: 16px;
+}
+
+#skills .contenar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#interists .contenar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.title {
+    display: flex;
+    gap: 5px;
+}
